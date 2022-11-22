@@ -43,7 +43,7 @@ Admin Pass: 654321
 
 ## Live SIte
 
-- https://urban-estate-69bca.web.app/
+- https://urban-estate-1da4d.web.app/
 
 ## Deployment
 
