@@ -6,7 +6,7 @@ import Property from "./Property/Property";
 const Properties = () => {
   const [properties, setProperties] = useState([]);
   useEffect(() => {
-    fetch("https://young-anchorage-08482.herokuapp.com/allProperties")
+    fetch("https://urban-estate-server.onrender.com/allProperties")
       .then((res) => res.json())
       .then((json) => setProperties(json));
   }, []);

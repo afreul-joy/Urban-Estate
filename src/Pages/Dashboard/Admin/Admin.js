@@ -20,7 +20,7 @@ const Admin = () => {
               Swal.fire('Saved!', '', 'success')
 
               const user = {email} ;      
-              fetch('https://young-anchorage-08482.herokuapp.com/users/admin',{
+              fetch('https://urban-estate-server.onrender.com/users/admin',{
                   method: 'PUT',
                   headers:{
                       'content-type': 'application/json'

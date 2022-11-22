@@ -15,7 +15,7 @@ const AddAgent = () => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
               Swal.fire('Saved!', '', 'success')
-              fetch('https://young-anchorage-08482.herokuapp.com/agent',{
+              fetch('https://urban-estate-server.onrender.com/agent',{
             method:'POST',
             headers:{
                 'content-type': 'application/json'

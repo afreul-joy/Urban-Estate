@@ -1,28 +1,8 @@
 [
   {
-    "id": 1,
-    "img": "https://i.ibb.co/VSQMdtt/1.png",
-    "name": "Property",
-    "price": "100$ / sq. ft.",
-    "location": "Dhaka",
-    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt, omnis aspernatur saepe quisquam ratione corporis eos? Harum eligendi animi similique officia doloribus eaque, dignissimos omnis consectetur itaque esse eos!",
-    "bed": "3",
-    "space": "250 Sq. ft."
-  },
-  {
-    "id": 2,
-    "img": "https://i.ibb.co/bXfrjSY/2.png",
-    "name": "Property 2",
-    "price": "250$ / sq. ft.",
-    "location": "Dhaka",
-    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt, omnis aspernatur saepe quisquam ratione corporis eos? Harum eligendi animi similique officia doloribus eaque, dignissimos omnis consectetur itaque esse eos!",
-    "bed": "6",
-    "space": "350 Sq. ft."
-  },
-  {
     "id": 3,
     "img": "https://i.ibb.co/tpY4WZm/3.png",
-    "name": "Property 3",
+    "name": "Smith Mansion",
     "price": "300$ / sq. ft.",
     "location": "Dhaka",
     "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt, omnis aspernatur saepe quisquam ratione corporis eos? Harum eligendi animi similique officia doloribus eaque, dignissimos omnis consectetur itaque esse eos!",
@@ -32,7 +12,47 @@
   {
     "id": 4,
     "img": "https://i.ibb.co/S7BqJrQ/4.png",
-    "name": "Property 4",
+    "name": "Neverland Ranch",
+    "price": "200$ / sq. ft.",
+    "location": "Dhaka",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt, omnis aspernatur saepe quisquam ratione corporis eos? Harum eligendi animi similique officia doloribus eaque, dignissimos omnis consectetur itaque esse eos!",
+    "bed": "3",
+    "space": "550 Sq. ft."
+  },
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/VSQMdtt/1.png",
+    "name": "Madison Villa",
+    "price": "100$ / sq. ft.",
+    "location": "Dhaka",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt, omnis aspernatur saepe quisquam ratione corporis eos? Harum eligendi animi similique officia doloribus eaque, dignissimos omnis consectetur itaque esse eos!",
+    "bed": "3",
+    "space": "250 Sq. ft."
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/bXfrjSY/2.png",
+    "name": "Eames House",
+    "price": "250$ / sq. ft.",
+    "location": "Dhaka",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt, omnis aspernatur saepe quisquam ratione corporis eos? Harum eligendi animi similique officia doloribus eaque, dignissimos omnis consectetur itaque esse eos!",
+    "bed": "6",
+    "space": "350 Sq. ft."
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/tpY4WZm/3.png",
+    "name": "Smith Mansion",
+    "price": "300$ / sq. ft.",
+    "location": "Dhaka",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt, omnis aspernatur saepe quisquam ratione corporis eos? Harum eligendi animi similique officia doloribus eaque, dignissimos omnis consectetur itaque esse eos!",
+    "bed": "8",
+    "space": "200 Sq. ft."
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/S7BqJrQ/4.png",
+    "name": "Neverland Ranch",
     "price": "200$ / sq. ft.",
     "location": "Dhaka",
     "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt, omnis aspernatur saepe quisquam ratione corporis eos? Harum eligendi animi similique officia doloribus eaque, dignissimos omnis consectetur itaque esse eos!",

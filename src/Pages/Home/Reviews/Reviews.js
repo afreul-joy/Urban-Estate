@@ -7,7 +7,7 @@ const Reviews = () => {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    fetch("https://young-anchorage-08482.herokuapp.com/customerReview")
+    fetch("https://urban-estate-server.onrender.com/customerReview")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);

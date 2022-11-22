@@ -5,7 +5,7 @@ const DeleteAgent = () => {
     const [Agents, setAgents] = useState([]);
    
     useEffect(()=>{
-        fetch('https://young-anchorage-08482.herokuapp.com/allAgent')
+        fetch('https://urban-estate-server.onrender.com/allAgent')
         .then(res => res.json())
         .then(data => setAgents(data))
     },[Agents.length])
@@ -21,7 +21,7 @@ const DeleteAgent = () => {
             confirmButtonText: 'Yes, delete it!'
           }).then((result) => {
             if (result.isConfirmed) {              
-              fetch(`https://young-anchorage-08482.herokuapp.com/Agent/${id}`,{
+              fetch(`https://urban-estate-server.onrender.com/Agent/${id}`,{
                 method:'DELETE'
             })
             .then(res => res.json())

@@ -20,7 +20,7 @@ const GiveReview = () => {
     e.preventDefault();
     const data = { reviewerName, rating, comment };
 
-    fetch("https://young-anchorage-08482.herokuapp.com/customerReview", {
+    fetch("https://urban-estate-server.onrender.com/customerReview", {
       method: "POST",
       headers: {
         "content-type": "application/json",

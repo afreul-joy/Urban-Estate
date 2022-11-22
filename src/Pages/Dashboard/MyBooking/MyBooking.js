@@ -7,7 +7,7 @@ const MyBooking = () => {
   const { user } = UseAuth();
 
   useEffect(() => {
-    const url = `https://young-anchorage-08482.herokuapp.com/myBooking?email=${user.email}`;
+    const url = `https://urban-estate-server.onrender.com/myBooking?email=${user.email}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setBookings(data));
@@ -24,7 +24,7 @@ const MyBooking = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`https://young-anchorage-08482.herokuapp.com/myBooking/${id}`, {
+        fetch(`https://urban-estate-server.onrender.com/myBooking/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

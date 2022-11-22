@@ -6,7 +6,7 @@ const Booking = () => {
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
     
-    fetch("https://young-anchorage-08482.herokuapp.com/mybooking", {
+    fetch("https://urban-estate-server.onrender.com/mybooking", {
       method: "POST",
       headers: {
         "content-type": "application/json",

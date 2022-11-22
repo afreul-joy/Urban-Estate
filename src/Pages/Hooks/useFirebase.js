@@ -100,7 +100,7 @@ const useFirebase = () => {
   // user post to db
   const saveUser = (email, displayName, method) => {
     const user = { email, displayName };
-    fetch("https://young-anchorage-08482.herokuapp.com/users", {
+    fetch("https://urban-estate-server.onrender.com/users", {
       method: method,
       headers: {
         "content-type": "application/json",
@@ -111,7 +111,7 @@ const useFirebase = () => {
 
   // load admin
   useEffect(() => {
-    fetch(`https://young-anchorage-08482.herokuapp.com/users/${user.email}`)
+    fetch(`https://urban-estate-server.onrender.com/users/${user.email}`)
       .then((res) => res.json())
       .then((data) => setAdmin(data.admin));
   }, [user.email]);

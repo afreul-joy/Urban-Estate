@@ -5,7 +5,7 @@ const DeleteProperties = () => {
     const [Properties, setProperties] = useState([]);
    
     useEffect(()=>{
-        fetch('https://young-anchorage-08482.herokuapp.com/allProperties')
+        fetch('https://urban-estate-server.onrender.com/allProperties')
         .then(res => res.json())
         .then(data => setProperties(data))
     },[Properties.length])
@@ -21,7 +21,7 @@ const DeleteProperties = () => {
             confirmButtonText: 'Yes, delete it!'
           }).then((result) => {
             if (result.isConfirmed) {              
-              fetch(`https://young-anchorage-08482.herokuapp.com/property/${id}`,{
+              fetch(`https://urban-estate-server.onrender.com/property/${id}`,{
                 method:'DELETE'
             })
             .then(res => res.json())

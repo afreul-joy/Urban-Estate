@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "https://i.ibb.co/RB9Stdb/3.png",
+    "img": "https://i.ibb.co/Fnmdrt6/3.png",
     "name": "Agent 1",
     "location": "Dhaka",
     "phone": "01677777770",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "img": "https://i.ibb.co/wyytc1m/2.png",
+    "img": "https://i.ibb.co/tcQFBFS/2.png",
     "name": "Agent 2",
     "location": "Dhaka",
     "phone": "01744444440",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "img": "https://i.ibb.co/CnrS0T3/1.png",
+    "img": "https://i.ibb.co/x8hLT38/1.png",
     "name": "Agent 3",
     "location": "Dhaka",
     "phone": "01900001111",
@@ -25,7 +25,7 @@
   },
   {
     "id": 1,
-    "img": "https://i.ibb.co/RB9Stdb/3.png",
+    "img": "https://i.ibb.co/Fnmdrt6/3.png",
     "name": "Agent 1",
     "location": "Dhaka",
     "phone": "01677777770",
@@ -33,7 +33,7 @@
   },
   {
     "id": 2,
-    "img": "https://i.ibb.co/wyytc1m/2.png",
+    "img": "https://i.ibb.co/tcQFBFS/2.png",
     "name": "Agent 2",
     "location": "Dhaka",
     "phone": "01744444440",
@@ -41,11 +41,12 @@
   },
   {
     "id": 3,
-    "img": "https://i.ibb.co/CnrS0T3/1.png",
+    "img": "https://i.ibb.co/x8hLT38/1.png",
     "name": "Agent 3",
     "location": "Dhaka",
     "phone": "01900001111",
     "mail": "agent@gmail.com"
   }
+
 ]
 

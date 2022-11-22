@@ -7,7 +7,7 @@ const PropertyDetails = () => {
   const { _id } = useParams();
   const [details, setDetails] = useState({});
   useEffect(() => {
-    fetch(`https://young-anchorage-08482.herokuapp.com/property/${_id}`)
+    fetch(`https://urban-estate-server.onrender.com/property/${_id}`)
       .then((res) => res.json())
       .then((json) => setDetails(json));
   }, [_id]);

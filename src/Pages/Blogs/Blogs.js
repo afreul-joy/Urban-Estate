@@ -5,7 +5,7 @@ import Blog from "./Blog/Blog";
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
-    fetch("https://young-anchorage-08482.herokuapp.com/allBlogs")
+    fetch("https://urban-estate-server.onrender.com/allBlogs")
       .then((res) => res.json())
       .then((json) => setBlogs(json));
   }, []);

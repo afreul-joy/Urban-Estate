@@ -15,7 +15,7 @@ const AddProperties = () => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
               Swal.fire('Saved!', '', 'success')
-              fetch('https://young-anchorage-08482.herokuapp.com/property',{
+              fetch('https://urban-estate-server.onrender.com/property',{
             method:'POST',
             headers:{
                 'content-type': 'application/json'
